@@ -1,0 +1,373 @@
+/* Generic */
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h1 {
+  font-size: 3em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(255, 224, 102, .7);
+  box-sizing: border-box;
+}
+
+img {
+  width: 2.5em;
+  cursor: pointer;
+  opacity: .7;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+input[type=text], select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Classes cellphones mobile first */
+@media only screen and (max-width: 750px) and (min-width: 50px){
+
+  html {
+    background: url(imgs/background-cellphone.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  input[type=text], select {
+    padding: 1.4em 2em;
+    margin: 0.8em 0;
+    border: 0.5em solid #ccc;
+    border-radius: 0.4em;
+    font-size: 1em;
+  }
+
+  input[type=submit] {
+    padding: 0.6em 1.2em;
+    margin: 0.8em 0;
+    border-radius: 0.4em;
+    font-size: 1.8em;
+  }
+
+  li {
+    padding: 0.5em;
+    margin: 0.8em 0;
+    border: 0.1em solid #000000;
+    border-radius: 0.4em;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 85%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 2em;
+  }
+  
+  .title {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1em;
+    font-size: 4.5em;
+    padding: 0.35em;
+    background-color: rgba(255, 255, 255, .35);
+  }
+
+  .tasks-wrapper {
+    order: 2;
+    width: 100%;
+  }
+
+  .list-wrapper {
+    width: 100%;
+    display: flex;
+    font-size: 1.2em;
+  }
+  
+  .icons-wrapper {
+    width: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .task-status {
+    width: 2.5em;
+    height: 2.5em;
+    flex: auto;
+    margin-bottom: 0.4em;
+  }
+
+  .delete-task {
+    width: 2.5em;
+    height: 2.5em;
+    flex: auto;
+    align-self: flex-end;
+  }
+
+  .task-description {
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+  
+  .form-wrapper {
+    order: 3;
+    margin-top: 3em;
+    width: 100%
+  }
+
+}
+
+/* Classes Tablets mobile first */
+@media only screen and (max-width: 1030px) and (min-width: 751px){
+
+  html {
+    background: url(imgs/background-tablet.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  input[type=text], select {
+    padding: 1.4em 2em;
+    margin: 0.8em 0;
+    border: 0.5em solid #ccc;
+    border-radius: 0.5em;
+    font-size: 2em;
+  }
+
+  input[type=submit] {
+    padding: 0.6em 1.2em;
+    border-radius: 0.4em;
+    font-size: 3em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  li {
+    padding: 0.5em;
+    margin: 0.8em 0.8em;
+    border: 0.1em solid #000000;
+    border-radius: 0.4em;
+    flex: auto;
+    width: 40%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 85%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 2em;
+  }
+  
+  .title {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1em;
+    font-size: 9.5em;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, .35);
+  }
+
+  .tasks-wrapper {
+    order: 2;
+    width: 100%;
+  }
+
+  .list-wrapper {
+    width: 100%;
+    display: flex;
+    font-size: 2em;
+    height: 100%;
+  }
+  
+  .icons-wrapper {
+    width: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .task-status {
+    width: 2.5em;
+    height: 2.5em;
+    flex: auto;
+    margin-bottom: 0.4em;
+  }
+
+  .delete-task {
+    width: 2.5em;
+    height: 2.5em;
+    flex: auto;
+    align-self: flex-end;
+  }
+
+  .task-description {
+    margin: auto;
+    text-align: center;
+    padding: 0.2em;
+  }
+  
+  .form-wrapper {
+    order: 3;
+    width: 100%
+  }
+
+}
+
+/* Classes Desktop mobile first */
+@media only screen and (min-width: 1031px) {
+
+  html {
+    background: url(imgs/background-desktop.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  input[type=text], select {
+    padding: 1em 1.5em;
+    border: 0.5em solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+  }
+
+  input[type=submit] {
+    padding: 0.6em 1.2em;
+    margin: 0.5em 0 0;
+    border-radius: 0.4em;
+    font-size: 2em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  li {
+    padding: 0.5em;
+    margin: 0.5em 0.5em;
+    border: 0.1em solid #000000;
+    border-radius: 0.4em;
+    flex: auto;
+    width: 30%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 85%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 2em;
+  }
+  
+  .title {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1em;
+    font-size: 7em;
+    padding: 0.3em;
+    background-color: rgba(255, 255, 255, .35);
+  }
+
+  .tasks-wrapper {
+    order: 2;
+    width: 100%;
+  }
+
+  .list-wrapper {
+    width: 100%;
+    display: flex;
+    font-size: 1em;
+    height: 100%;
+  }
+  
+  .icons-wrapper {
+    width: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .task-status {
+    width: 2.5em;
+    height: 2.5em;
+    flex: auto;
+    margin-bottom: 0.4em;
+  }
+
+  .delete-task {
+    width: 2.5em;
+    height: 2.5em;
+    flex: auto;
+    align-self: flex-end;
+  }
+
+  .task-description {
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+  
+  .form-wrapper {
+    order: 3;
+    width: 100%
+  }
+
+}
