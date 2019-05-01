@@ -1,5 +1,8 @@
 # This project was developed in [React](https://reactjs.org/) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for an assessment to General Electric - Software Division
 
+You can see try this app online clicking [here](https://to-do-list-app-react-ge.herokuapp.com/)<br>
+Works good on any device and screen size
+
 ## Instructions for running this app locally
 
 ### Requirements
