@@ -23,7 +23,7 @@ Wait until it's finished and then run on your terminal the following commands
 ### `npm install -g serve`
 ### `serve -s build`
 
-These commands installs and runs the npm serve module. This module takes care of creating the environment and running the server. Also, at the end of the process, the production app URL is copied to your clipboard.<br>
+These commands installs and runs the npm serve module. This module takes care of creating the environment and running the server. Also, at the end of the process, the production app URL is copied to your clipboard<br>
 Now you open your browser (preferentially [Google Chrome](https://www.google.com/chrome/)) and paste the URL on the address bar
 
 ### Thank you for checking this app out
