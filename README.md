@@ -11,7 +11,7 @@ After the requirements are fulfilled open your CLI terminal (Command-line Interf
 
 ### `git clone https://github.com/mdougllas/to-do-react-app.git`
 
-This is create a copy of this repository on your local computer<br>
+This creates a copy of this repository on your local computer<br>
 
 On your terminal run
 
