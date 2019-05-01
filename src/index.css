@@ -57,7 +57,7 @@ input[type=submit] {
     margin: 0.8em 0;
     border: 0.5em solid #ccc;
     border-radius: 0.4em;
-    font-size: 1em;
+    font-size: 1.4em;
   }
 
   input[type=submit] {
@@ -268,17 +268,22 @@ input[type=submit] {
   }
 
   input[type=text], select {
-    padding: 1em 1.5em;
-    border: 0.5em solid #ccc;
+    padding: 0.5em 0.5em;
+    border: 0.25em solid #ccc;
     border-radius: 0.5em;
     font-size: 1.5em;
+    flex: auto;
+    width: 84%;
   }
 
   input[type=submit] {
     padding: 0.6em 1.2em;
     margin: 0.5em 0 0;
     border-radius: 0.4em;
-    font-size: 2em;
+    font-size: 1.5em;
+    flex: auto;
+    width: 15%;
+    margin-left: .3em;
   }
 
   ul {
