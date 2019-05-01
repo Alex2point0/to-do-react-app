@@ -7,7 +7,7 @@
 - NodeJs latest version [Download and install NodeJs](https://nodejs.org/en/download/)
 - Git [Download and install Git](https://git-scm.com/downloads)
 
-After the requirements are fulfilled open your CLI terminal (Command-line Interface) and type the following commands inside of your project folder
+After the requirements are fulfilled open your CLI terminal (Command-line Interface) and type the following command inside of your project folder
 
 ### `git clone https://github.com/mdougllas/to-do-react-app.git`
 
