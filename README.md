@@ -1,4 +1,4 @@
-# This project was developed in React and bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for an assessment to General Electric - Software Division
+# This project was developed in [React](https://reactjs.org/) and bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for an assessment to General Electric - Software Division
 
 ## Instructions for running this app locally
 
